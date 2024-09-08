@@ -10,3 +10,11 @@ def capitate(string):
 
 string = "launch school tech & talk"
 print(capitate(string))
+
+
+"""
+An easier way would be 
+
+def capitate(string):
+    return string.title()
+"""

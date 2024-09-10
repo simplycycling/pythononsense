@@ -1,5 +1,5 @@
 def count_substrings(string, substring):
-    pass
+    return string.count(substring)
 
 
 print(count_substrings("lemon lemon lemon", "lemon"))  # 3

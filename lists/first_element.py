@@ -1,5 +1,8 @@
 def first(list):
-    return list[0]
+    if len(list) == 0:
+        return "List is empty"
+    else:
+        return list[0]
 
 
 print(first(["Earth", "Moon", "Mars"]))

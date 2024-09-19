@@ -21,3 +21,12 @@ destinations = [
 
 print(contains("Barcelona", destinations))
 print(contains("Nashville", destinations))
+
+"""
+Official answer
+
+def contains(element, lst):
+    for item in lst:
+        if item == element:
+            return True
+"""

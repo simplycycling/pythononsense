@@ -29,4 +29,6 @@ def contains(element, lst):
     for item in lst:
         if item == element:
             return True
+
+    return False
 """

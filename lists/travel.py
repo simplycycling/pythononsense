@@ -31,4 +31,16 @@ def contains(element, lst):
             return True
 
     return False
+
+Or
+
+def contains(element, lst):
+    index = 0
+    while index < len(lst):
+        if lst[index] == element:
+            return True
+
+        index += 1
+    
+    return False
 """
